@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &572708585635678552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572708585635678558}
+  - component: {fileID: 572708585635678559}
+  - component: {fileID: 572708585635678557}
+  - component: {fileID: 572708585635678556}
+  m_Layer: 0
+  m_Name: EHA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &572708585635678558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572708585635678552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7837381, y: 0.63813925, z: 12.413462}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &572708585635678559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572708585635678552}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38a807811cdbab409a74273ed26aff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  coefficient: 1
+  Left: 0
+  Right: 0
+  Up: 0
+  Down: 0
+  PW: 0
+  staticThreshold: 5
+  pidManager: {fileID: 572708585635678557}
+  controlledObject: {fileID: 0}
+  iPulseWidthX: 300
+  iPulseWidthY: 300
+--- !u!114 &572708585635678557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572708585635678552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de5e917d2f7ae478f53bac960e2d2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Center: {fileID: 0}
+  Target1: {fileID: 0}
+  Target2: {fileID: 0}
+  Target3: {fileID: 0}
+  Target4: {fileID: 0}
+  Target5: {fileID: 0}
+  Target6: {fileID: 0}
+  Target7: {fileID: 0}
+  Target8: {fileID: 0}
+  Target9: {fileID: 0}
+  Target10: {fileID: 0}
+  Target11: {fileID: 0}
+  Target12: {fileID: 0}
+  Target13: {fileID: 0}
+  Target14: {fileID: 0}
+  Target15: {fileID: 0}
+  Target16: {fileID: 0}
+  Trajectory1: {fileID: 0}
+  Trajectory2: {fileID: 0}
+  Trajectory3: {fileID: 0}
+  trigger: 0
+  limit: 0
+  horizontalTrigger: 0
+  verticalTrigger: 0
+  sineTrigger: 0
+  controlledObject: {fileID: 0}
+--- !u!114 &572708585635678556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572708585635678552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4bdca3aa2b02d44a8c623585cc68be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
